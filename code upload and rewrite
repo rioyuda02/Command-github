@@ -1,0 +1,33 @@
+==== Upload File to Github On Linux ====
+
+1. git init   // for initialize all file on dictionary
+2. git add .  // add all file  on dictionary
+3. git commit -m "update" // create label name file for initialize new update
+4. git branch -M main    // create name branch optional ["main or master"]
+5. git remote add origin "your url repository"  // connect to your repository
+6. git push -u origin main  // upload file to your repository "main" is name your branch
+
+
+==== Upload & Rewrite File For New Update ====
+
+( if you have already exist remote your repository )
+1. git push -f origin main // upload and rewrite file to your repository. ["main" is name your branch]
+
+(if you want change all file for update )
+1. rm -rf .git  // remove your initialize folder github in your dictionary
+2. git init   // for initialize all file on dictionary
+3. git add .  // add all file  on dictionary
+4. git commit -m "update" // create label name file for initialize new update
+5. git branch -M main    // create name branch optional ["main or master"]
+6. git remote add origin "your url repository"  // connect to your repository
+7. git push -f origin main  // upload and rewrite file to your repository. ["main" is name your branch]
+
+
+========== Thank you===========
+Please, command if you have problem with my tutorial code
+
+I hope will help you,
+
+
+Rio Y,
+Full Stack Development
