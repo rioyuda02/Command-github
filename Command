@@ -23,8 +23,19 @@
 7. git push -f origin main  // upload and rewrite file to your repository. ["main" is name your branch]
 
 
+=== Delete Local Branch ====
+  git branch -d "Your Branch Name"
+
+=== Delete remote branch ====
+  git push "remote name" : "Your branch name"
+  
+  Example : git push origin : Ball-random 
+
+
+
+
+
 ========== Thank you===========
-Please, command if you have problem with my tutorial code
 
 I hope will help you,
 
