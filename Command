@@ -1,4 +1,4 @@
-==== Upload File to Github On Linux ====
+==== Upload File to Github On Linux/Mac Os ====
 
 1. git init   // for initialize all file on dictionary
 2. git add .  // add all file  on dictionary
